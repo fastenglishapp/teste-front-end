@@ -1,0 +1,12 @@
+.list-container {
+  display: block;
+}
+
+.list-container .list {
+  height: 102px;
+  width: 100%;
+  background: #ffffff;
+  border: 1px solid #eff2f9;
+  box-sizing: border-box;
+  border-radius: 6px;
+}

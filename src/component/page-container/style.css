@@ -1,0 +1,10 @@
+#page-container {
+  flex: 75%;
+}
+
+#page-content {
+  height: 94vh;
+  background: #eff2f9;
+  border-radius: 30px;
+  overflow: hidden;
+}

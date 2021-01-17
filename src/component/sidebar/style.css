@@ -1,0 +1,32 @@
+#sidebar {
+  flex: 20%;
+  position: relative;
+}
+
+#sidebar img {
+  position: absolute;
+  right: 0;
+  z-index: -1;
+}
+
+#sidebar ul {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+#sidebar ul li {
+  list-style-type: none;
+  text-align: center;
+  padding: 15px;
+}
+
+#sidebar ul li a {
+  text-decoration: none;
+  color: var(--front-color);
+}
+
+#sidebar #logo {
+  height: 70px;
+  color: var(--front-color);
+}
