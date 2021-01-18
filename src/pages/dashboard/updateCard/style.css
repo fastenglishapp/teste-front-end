@@ -1,10 +1,62 @@
 #update-container {
+  font-family: Open Sans;
+  font-style: normal;
   display: flex;
+  font-family: Open Sans;
+  font-style: normal;
 }
 .update-card {
+  display: flex;
   height: 124px;
+  flex: 1;
   background: #ffffff;
   border-radius: 6px;
   margin: 8px;
+  padding: var(--txt-size-XXsmall);
   box-shadow: 0px 1px 26px rgba(71, 87, 122, 0.08);
+}
+
+.update-img {
+  width: 96px;
+}
+
+.update-title {
+  font-weight: 800;
+  font-size: var(--txt-size-XXsmall);
+  line-height: var(--line-height-small);
+  color: rgba(48, 59, 91, 0.3);
+}
+
+.update-name {
+  font-weight: bold;
+  font-size: var(--txt-size-Xmedium);
+  line-height: 25px;
+  color: #303b5b;
+}
+
+.update-complete {
+  font-size: var(--txt-size-Xsmall);
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: #1eac79;
+  margin-top: 5px;
+}
+
+.update-cancel {
+  font-size: var(--txt-size-Xsmall);
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: #ef0c35;
+}
+
+.update-date {
+  font-weight: 800;
+  font-size: var(--txt-size-XXsmall);
+  line-height: var(--line-height-small);
+  display: flex;
+  align-items: center;
+  margin-top: 7px;
+  color: rgba(48, 59, 91, 0.3);
 }

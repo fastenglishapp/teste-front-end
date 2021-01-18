@@ -1,0 +1,110 @@
+#geralCard-container {
+  display: flex;
+}
+
+.bg-card-effect {
+  position: absolute;
+  height: 142px;
+  right: var(--txt-size-normal);
+  top: 20px;
+  width: 68%;
+  background: #ffffff;
+  box-shadow: 0px 8px 26px rgba(71, 87, 122, 0.08);
+  border-radius: 6px;
+  z-index: -10;
+}
+
+.card-total-effect {
+  position: absolute;
+  height: 66px;
+  right: var(--txt-size-XXsmall);
+  opacity: 0;
+  top: -42px;
+  padding: 5px;
+  width: 39%;
+  background: #ffffff;
+  box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  z-index: 33;
+  transition: all 0.4s ease-in;
+}
+
+.card-total-effect .total-description {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: var(--txt-size-Xsmall);
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+
+  color: #303b5a;
+}
+.card-total-effect .total-number {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 33px;
+
+  color: #1cbf84;
+}
+.geral-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #ffffff;
+  border-radius: 6px;
+  margin: 8px;
+  padding: var(--txt-size-XXsmall);
+  flex: 1;
+  height: 150px;
+  position: relative;
+  z-index: 10;
+  box-shadow: 0px 8px 26px rgba(71, 87, 122, 0.08);
+  transition: all 0.6 ease;
+}
+
+.geral-card:hover {
+  box-shadow: 0px 8px 26px rgba(71, 87, 122, 0.3);
+}
+
+.geral-card:hover .card-total-effect {
+  opacity: 1;
+}
+
+.geral-content-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.geral-icon {
+  width: 24px;
+}
+
+.geral-btn-txt {
+  /* font-family: Poppins;
+font-style: normal;
+font-weight: bold; */
+  font-size: --txt-size-XXsmall;
+  line-height: (--line-height-Xsmall);
+  color: var(--color-white);
+}
+
+.geralCard-number {
+  font-size: 36px;
+  line-height: 54px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 1px;
+  color: #303b5b;
+}
+
+.geralCard-type {
+  font-size: var(--txt-size-normal);
+  line-height: var(--txt-size-large);
+  display: flex;
+  align-items: center;
+  color: #303b5b;
+}

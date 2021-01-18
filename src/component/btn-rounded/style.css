@@ -1,0 +1,7 @@
+.btn-rounded {
+  /* background: linear-gradient(93.05deg, #00a3ff 0%, #0057ff 100%); */
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  padding: 2px 16px;
+}

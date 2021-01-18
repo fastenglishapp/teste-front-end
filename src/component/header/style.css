@@ -1,8 +1,8 @@
 .header {
   height: 70px;
-  background: var(--front-color);
+  background: var(--color-white);
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px;
+  padding: var(--txt-size-XXsmall);
 }

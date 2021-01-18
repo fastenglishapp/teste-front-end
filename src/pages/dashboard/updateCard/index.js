@@ -5,18 +5,31 @@ const UpdateCard = ({ updateData }) => {
     <section id="update-container">
       {updateData.map((update) => (
         <div key={update.id} className="update-card">
-          <img alt="person-pic" />
-          <div>
+          <img src={update.img} alt="person-pic" className="update-img" />
+          <div style={{ marginLeft: "15px" }}>
             <div>
-              <span>PACIENTE</span>
-              <span>NOME</span>
+              <div className="update-title">PACIENTE</div>
+              <span className="update-name">{update.name}</span>
               <div>
-                <span>COMPLETOU O TESTE</span>
-                <span>TDCA</span>
+                {update.tested ? (
+                  <div className="update-complete">
+                    <span>COMPLETOU O TESTE:</span>
+                    <span style={{ fontWeight: "bold" }}>
+                      {update.testName}
+                    </span>
+                  </div>
+                ) : (
+                  <div className="update-cancel">
+                    <span>CANCELOU O TESTE:</span>{" "}
+                    <span style={{ fontWeight: "bold" }}>
+                      {update.testName}
+                    </span>
+                  </div>
+                )}
               </div>
             </div>
             <div>
-              <span>REALIZADO EM 12/12/12</span>
+              <span className="update-date">REALIZADO EM: {update.date}</span>
             </div>
           </div>
         </div>

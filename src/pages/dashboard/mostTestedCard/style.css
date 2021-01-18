@@ -1,0 +1,27 @@
+#most-tested {
+  font-family: Open Sans;
+  font-style: normal;
+}
+
+.mostTested-btn {
+  font-weight: bold;
+  font-size: var(--txt-size-XXsmall);
+  line-height: var(--line-height-small);
+  letter-spacing: 1px;
+  color: #ffffff;
+}
+
+.mostTested-title {
+  font-weight: bold;
+  font-size: var(--txt-size-Xlarge);
+  line-height: 35px;
+  color: #303b5b;
+}
+
+.mostTested-subtitle {
+  font-weight: 800;
+  font-size: var(--txt-size-XXsmall);
+  line-height: 1var (--line-height-small) 4px;
+
+  color: rgba(48, 59, 91, 0.3);
+}

@@ -1,12 +1,98 @@
 .list-container {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  font-family: Open Sans;
+  font-style: normal;
 }
 
 .list-container .list {
-  height: 102px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
   width: 100%;
   background: #ffffff;
   border: 1px solid #eff2f9;
   box-sizing: border-box;
+  padding: var(--txt-size-XXsmall);
   border-radius: 6px;
+}
+
+.list-container .list .list-content {
+  margin-left: 6px;
+}
+
+.list-content .list-title {
+  font-weight: bold;
+  font-size: var(--txt-size-normal);
+  line-height: 25px;
+  color: #303b5b;
+}
+.list-content .list-diagnosis {
+  font-weight: 800;
+  font-size: var(--txt-size-XXsmall);
+  line-height: var(--line-height-small);
+  color: rgba(48, 59, 91, 0.3);
+  margin-top: 0.5rem;
+}
+.list-content .list-diagnosis-result {
+  font-weight: 600;
+  font-size: var(--txt-size-XXsmall);
+  line-height: 18px;
+  color: #1eac79;
+  margin-top: 0.7rem;
+}
+
+.list-img {
+  /* width: 64px; */
+}
+
+.box-content {
+  padding: 0px 16px;
+  font-family: Poppins;
+  font-style: normal;
+}
+
+.box-number {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 54px;
+  letter-spacing: 1px;
+}
+
+.box-description {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: var(--line-height-small);
+  line-height: 21px;
+}
+
+.pacient-btn {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: var(--txt-size-XXsmall);
+  line-height: var(--line-height-small);
+  letter-spacing: 1px;
+
+  color: #ffffff;
+}
+
+.pacient-edit {
+  border: 1px solid;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  background: #ffffff;
+  border: 1px solid #eff2f9;
+  margin-right: 20px;
+  box-sizing: border-box;
+}
+
+.pacient-edit img {
+  margin-left: 4px;
+}
+.button-content button {
+  margin-right: 20px;
 }

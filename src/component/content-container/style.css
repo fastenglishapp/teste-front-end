@@ -1,7 +1,26 @@
 .content-container {
   /* margin-top: 20px; */
+  /* width: 100%; */
 }
 
 .content-tile {
   margin: 15px 0px;
+  padding-right: 20px;
+  font-size: var(--txt-size-normal);
+  line-height: 27px;
+  display: flex;
+  align-items: center;
+  color: #303b5b;
+}
+
+.content-btn {
+  font-size: var(--txt-size-XXsmall);
+  line-height: var(--line-height-small);
+  letter-spacing: 1px;
+  color: #ffffff;
+}
+
+.content-body {
+  /* overflow-x: auto;
+  height: 247px; */
 }

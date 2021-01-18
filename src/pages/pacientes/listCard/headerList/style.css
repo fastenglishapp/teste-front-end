@@ -1,0 +1,13 @@
+.header-pacient-list {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: var(--txt-size-normal);
+  line-height: var(--txt-size-large);
+
+  color: rgba(86, 84, 104, 0.6);
+}
+
+#tree-dots {
+  margin: var(--txt-size-XXsmall);
+}

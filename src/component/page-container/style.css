@@ -8,3 +8,63 @@
   border-radius: 30px;
   overflow: hidden;
 }
+
+.user-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user-content .icon-svg {
+  margin-right: 20px;
+}
+
+.user-content button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2px 6px;
+  margin-right: 20px;
+  border-radius: 50px;
+  background: rgba(47, 68, 134, 0.05);
+  border: none;
+  outline: none;
+}
+.user-content button span {
+  margin-right: var(--txt-size-XXsmall);
+}
+
+.bell-dot {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: red;
+  top: -1px;
+  right: -19px;
+}
+
+#user-btn {
+  position: relative;
+}
+
+#user-options {
+  position: absolute;
+  background: #ffffff;
+  box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  top: 50px;
+}
+#user-options > div {
+  padding: 8px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: var(--txt-size-Xsmall);
+  line-height: 18px;
+  color: #303b5a;
+}
+#user-options > div {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  z-index: 100;
+}
